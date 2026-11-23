@@ -13,6 +13,7 @@
     "typecheck": "npm run typecheck --workspace client && npm run typecheck --workspace server",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
+    "lint": "eslint client/src server/src",
     "seed": "npm run seed --workspace server"
   },
   "devDependencies": {
