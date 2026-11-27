@@ -9,6 +9,7 @@ import {
   getBookingErrors,
   type BookingFormState,
 } from "../utils/bookingValidation";
+import type { Booking } from "../types/models";
 
 export const BookingsPage = () => {
   const { isFeatureEnabled, user } = useAuth();
